@@ -1,3 +1,106 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+
+
+		
+h1 {
+	color: rgba(2, 132, 130, 1);
+}
+
+h2 {
+	color: #ffd700;
+}
+
+h3 {
+	color: #A8BDF0;
+}
+
+h4 {
+	text-align: center;
+}
+
+#yasu{
+	text-decoration: none;
+}
+		
+.name{
+	color: #ff0000;
+}
+
+.board {
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+	margin: 4%;
+	float: left;
+
+}
+
+
+.card_left {
+     height: 200px;
+     width: 150px;
+     border: 1px solid black;
+     background-color: #ffff00;
+     border-radius: 10px;
+     float: left;
+     display: inline-block;
+     margin: 0 60px 100px;
+     padding: 5px;
+     clear: both;
+ 
+}
+
+
+.card_right {
+     height: 200px;
+     width: 150px;
+     border: 1px solid black;
+     background-color: #ffff00;
+     border-radius: 10px;
+     float: left;
+     display: inline-block;
+     margin: 0 60px 100px;
+     padding: 5px;   
+}
+
+nav{
+	text-decoration: none;
+	background-color: #808080;
+
+}
+
+nav a {
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #ee5f3c;
+}
+
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+}
+
+
+
+footer {
+	background-color: #808080;
+	clear:both;
+  	text-align: center;
+}
+
+header, p, h1, h2, h3, h4 {
+	text-align: center;
+	max-width:960px;
+
+}
+
