@@ -1,5 +1,13 @@
 
-
+.card{
+  height: 200px;
+  width: 150px;
+  border: 1px solid black;
+  background-color:yellow;
+  border-radius: 10px;
+  float: left;
+  margin:8%
+}
 		
 h1 {
 	color: rgba(2, 132, 130, 1);
@@ -35,7 +43,7 @@ h4 {
 }
 
 
-.card_left {
+/*.card_left {
      height: 200px;
      width: 150px;
      border: 1px solid black;
@@ -60,6 +68,12 @@ h4 {
      display: inline-block;
      margin: 0 60px 100px;
      padding: 5px;   
+}
+*/
+img{
+	height: 200px;
+     width: 150px;
+     border: 1px solid black;
 }
 
 nav{
